@@ -1,0 +1,19 @@
+/* To make sure that an element has specific CSS, you can use !important. This will override everything. The reason why you would want this that sometimes when you use CSS libraries that might accidently override your own CSS and so to make sure that that doesn't override your CSS you use !important. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>

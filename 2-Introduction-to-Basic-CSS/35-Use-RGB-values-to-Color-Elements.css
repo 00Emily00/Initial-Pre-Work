@@ -1,0 +1,7 @@
+/* Another way to represent colors in CSS is RGB values. Red Green Blue are used and you just specify the brightness (0-255) of each color to make other colors. */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

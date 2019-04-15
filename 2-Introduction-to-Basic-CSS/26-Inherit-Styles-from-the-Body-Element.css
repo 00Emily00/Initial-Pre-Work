@@ -1,0 +1,11 @@
+/* you can style body element like any other HTML element and all your elements will inherit your body element's style. (because body wraps them) */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+<h1> Hello World </h1>

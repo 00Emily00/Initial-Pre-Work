@@ -1,0 +1,14 @@
+/* There will sometimes be issues with browser compatibility issues, so it's always good to have a fallback to avoid potential problems. Older browsers might not support certain things like CSS variables, so you need a fallback for those browsers. Newer browsers will just interprety whatever declaration comes later in the cascade. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
