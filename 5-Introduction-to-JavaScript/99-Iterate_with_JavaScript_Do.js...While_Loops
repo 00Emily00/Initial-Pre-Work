@@ -1,0 +1,11 @@
+// Another type of loop is do while loops. do while is similar to the while loop, the only difference is that the while loop checks the condition before iterating through the loop, but do while loop checks the condition after it executes the statement inside. 
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i)
+  i++
+} while (i < 10);
