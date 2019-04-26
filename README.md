@@ -12,7 +12,7 @@ put your answer here - From what I understand, when you send an HTTP request, th
 
 ## What code is rendered in the browser?
 
-put your answer here - HTML and if you have a CSS file included, then that's rendered too.
+put your answer here - HTML, JavaScript and if you have a CSS file included, then that's rendered too.
 
 ## What is the server-side code’s main function?
 
@@ -36,5 +36,5 @@ put your answer here - I think it really just depends on how many files you have
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here - What I understand is that instances and databases are closely related. Databases "are a collection of files that reside on the server"[1] The instance "is the allocated memory and collection of processes running on the server."[1] On this page it also says that "each instance runs on a separate server so the load is spread out on more than one machine."[1] So to answer the question, I think that only one instance of the database is created per server.
+put your answer here - What I understand is that instances and databases are closely related. Databases "are a collection of files that reside on the server"[1] The instance "is the allocated memory and collection of processes running on the server."[1] On this page it also says that "each instance runs on a separate server so the load is spread out on more than one machine."[1] So to answer the question, I think that only one instance of the database is created per server. I also found some additional info that "Real Apllication Clusters (RAC)...let you have multiple instances attached to one database" 
 1. https://searchoracle.techtarget.com/answer/What-is-an-instance
